@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 242, 247);
+}
+
+.header {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.main {
+  display: flex;
+}
+
+.grid-container {
+
+}
