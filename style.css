@@ -6,17 +6,36 @@
 
 body {
   background-color: rgb(243, 242, 247);
+  font-family: 'Inter', sans-serif;
 }
 
 .header {
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
+  margin-top: 2rem;
 }
 
 .main {
   display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.size-input {
+  
 }
 
 .grid-container {
-
+  background-color: white;
+  width: 31.25rem;
+  height: 31.25rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
