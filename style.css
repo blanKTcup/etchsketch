@@ -7,19 +7,20 @@
 body {
   background-color: rgb(243, 242, 247);
   font-family: 'Inter', sans-serif;
+  height: 100vh;
 }
 
 .header {
   text-align: center;
   font-size: 5rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .main {
   display: flex;
   justify-content: center;
   gap: 4rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .settings {
