@@ -9,9 +9,10 @@ sliderEL.oninput = function() {
   dimensionsEl.innerHTML = this.value + "x" + this.value;
 }
 
-
-
-for (let i = 0; i <= sizeInputEl.value; i++) {
+for (let i = 0; i <= sliderEL.oninput; i++) {
   const gridItem = document.createElement('div');
   gridContainerEl.appendChild(gridItem);
+  gridItem.style.width = (500/sliderEL.value) + 'px';
+  gridItem.style.height = (500/sliderEL.value) + 'px';
+  
 }
