@@ -10,6 +10,12 @@ body {
   height: 100vh;
 }
 
+/* JS CLASSES */
+.grid-shading {
+  color: black;
+  background-color: black;
+}
+
 .header {
   text-align: center;
   font-size: 5rem;
