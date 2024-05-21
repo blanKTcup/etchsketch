@@ -39,12 +39,21 @@ function gridSetup(value) {
     gridContainerEl.appendChild(gridItem);
     gridItem.style.width = (500/value) + 'px';
     gridItem.style.height = (500/value) + 'px';
-    // gridItem.addEventListener('mousedown', addColor());
+    gridItem.addEventListener('mouseover');
+    gridItem.addEventListener('mousedown', () => addColor(gridItem));
+    if ('mousedown' === true) {
+      addColor(gridItem);
+    }
+    // gridItem.addEventListener('mouseup', () => unDrag(gridItem));
   }
 }
 
-// function addColor() {
-//   gridItem.classList.add('grid-shading');
+function addColor(gridItem) {
+  gridItem.classList.add('grid-shading');
+}
+
+// function unDrag(gridItem) {
+//   gridItem.removeEventListener('mouseover');
 // }
 
 initialGrid();
